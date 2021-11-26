@@ -16,6 +16,7 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
+gem "just-the-docs"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

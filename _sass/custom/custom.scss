@@ -1,0 +1,139 @@
+/* Ref: https://github.com/tofsjonas/sortable */
+.sortable {
+  border-spacing: 0;
+}
+
+.sortable td,
+
+.sortable td:first-child,
+.sortable th:first-child {
+  border-top-left-radius: 4px;
+}
+
+.sortable td:last-child,
+.sortable th:last-child {
+  border-top-right-radius: 4px;
+}
+
+.sortable th {
+  color: #fff;
+  cursor: pointer;
+  font-weight: normal;
+  text-align: left;
+  text-transform: capitalize;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.sortable th:hover {
+  background: hsl(252,6%,30%);
+}
+
+.sortable th:hover::after {
+  color: inherit;
+  font-size: 1.2em;
+  content: ' \025B8';
+}
+
+.sortable th::after {
+  font-size: 1.2em;
+  color: transparent;
+  content: ' \025B8';
+}
+
+.sortable th.dir-d::after {
+  color: inherit;
+  content: ' \025B4';
+}
+
+.sortable th.dir-u::after {
+  color: inherit;
+  content: ' \025BE';
+}
+
+
+/* Ref: https://google-webfonts-helper.herokuapp.com/fonts/noto-sans-sc?subsets=chinese-simplified,latin */
+/* noto-sans-sc-100 - latin_chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-100.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-100.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-100.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-100.svg#NotoSansSC') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-sc-300 - latin_chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-300.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-300.svg#NotoSansSC') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-sc-regular - latin_chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-regular.svg#NotoSansSC') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-sc-500 - latin_chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-500.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-500.svg#NotoSansSC') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-sc-700 - latin_chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-700.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-700.svg#NotoSansSC') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-sc-900 - latin_chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-900.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-900.svg#NotoSansSC') format('svg'); /* Legacy iOS */
+}
