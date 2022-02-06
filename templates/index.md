@@ -1,6 +1,10 @@
 ---
 layout: default
-title: Theme Test
+title: 
+nav_order: 1
+has_children: true
+parent: UI Components
+has_toc: false
 ---
 <script src="/assets/js/sortable.js"></script>
 <link rel="stylesheet" href="{{ "/assets/css/sortable.css" | relative_url }}"/>

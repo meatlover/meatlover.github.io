@@ -1,3 +1,93 @@
+
+.life-square {
+    float:left;
+    position: relative;
+    width: 10%;
+    padding-bottom : 10%; /* = width for a 1:1 aspect ratio */
+    margin:0%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    line-height: 1px;
+}
+
+.bottom-left {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.nav-list-item {
+  text-align: right;
+}
+.site-title {
+  flex-direction: row-reverse;
+}
+.site-footer {
+  text-align: right;
+
+}
+
+.img_01{background-image:url('http://meatlover.org:4000/assets/images/life-square/01-1988.jpg');}
+.img_02{background-image:url('http://meatlover.org:4000/assets/images/life-square/02-1989.jpg');}
+.img_03{background-image:url('http://meatlover.org:4000/assets/images/life-square/03-1990.jpg');}
+.img_04{background-image:url('http://meatlover.org:4000/assets/images/life-square/04-1991.jpg');}
+.img_05{background-image:url('http://meatlover.org:4000/assets/images/life-square/05-1992.jpg');}
+
+.img_06{background-image:url('http://meatlover.org:4000/assets/images/life-square/06-1993.jpg');}
+.img_07{background-image:url('http://meatlover.org:4000/assets/images/life-square/07-1994.jpg');}
+.img_08{background-image:url('http://meatlover.org:4000/assets/images/life-square/08-1995.jpg');}
+.img_09{background-image:url('http://meatlover.org:4000/assets/images/life-square/09-1996.jpg');}
+.img_10{background-image:url('http://meatlover.org:4000/assets/images/life-square/10-1997.jpg');}
+
+.img_11{background-image:url('http://meatlover.org:4000/assets/images/life-square/11-1998.jpg');}
+.img_12{background-image:url('http://meatlover.org:4000/assets/images/life-square/12-1999.jpg');}
+.img_13{background-image:url('http://meatlover.org:4000/assets/images/life-square/13-2000.jpg');}
+.img_14{background-image:url('http://meatlover.org:4000/assets/images/life-square/14-2001.jpg');}
+.img_15{background-image:url('http://meatlover.org:4000/assets/images/life-square/15-2002.jpg');}
+
+.img_16{background-image:url('http://meatlover.org:4000/assets/images/life-square/16-2003.jpg');}
+.img_17{background-image:url('http://meatlover.org:4000/assets/images/life-square/17-2004.jpg');}
+.img_18{background-image:url('http://meatlover.org:4000/assets/images/life-square/18-2005.jpg');}
+.img_19{background-image:url('http://meatlover.org:4000/assets/images/life-square/19-2006.jpg');}
+.img_20{background-image:url('http://meatlover.org:4000/assets/images/life-square/20-2007.jpg');}
+
+.img_21{background-image:url('http://meatlover.org:4000/assets/images/life-square/21-2008.jpg');}
+.img_22{background-image:url('http://meatlover.org:4000/assets/images/life-square/22-2009.jpg');}
+.img_23{background-image:url('http://meatlover.org:4000/assets/images/life-square/23-2010.jpg');}
+.img_24{background-image:url('http://meatlover.org:4000/assets/images/life-square/24-2011.jpg');}
+.img_25{background-image:url('http://meatlover.org:4000/assets/images/life-square/25-2012.jpg');}
+
+.img_26{background-image:url('http://meatlover.org:4000/assets/images/life-square/26-2013.jpg');}
+.img_27{background-image:url('http://meatlover.org:4000/assets/images/life-square/27-2014.jpg');}
+.img_28{background-image:url('http://meatlover.org:4000/assets/images/life-square/28-2015.jpg');}
+.img_29{background-image:url('http://meatlover.org:4000/assets/images/life-square/29-2016.jpg');}
+.img_30{background-image:url('http://meatlover.org:4000/assets/images/life-square/30-2017.jpg');}
+
+.img_31{background-image:url('http://meatlover.org:4000/assets/images/life-square/31-2018.jpg');}
+.img_32{background-image:url('http://meatlover.org:4000/assets/images/life-square/32-2019.jpg');}
+.img_33{background-image:url('http://meatlover.org:4000/assets/images/life-square/33-2020.jpg');}
+.img_34{background-image:url('http://meatlover.org:4000/assets/images/life-square/34-2021.jpg');}
+
+/*
+
+
+.img_35{background-image:url('http://meatlover.org:4000/assets/images/life-square/35-2022.jpg');}
+.img_36{background-image:url('http://meatlover.org:4000/assets/images/life-square/36-2023.jpg');}
+.img_37{background-image:url('http://meatlover.org:4000/assets/images/life-square/37-2024.jpg');}
+.img_38{background-image:url('http://meatlover.org:4000/assets/images/life-square/38-2025.jpg');}
+.img_39{background-image:url('http://meatlover.org:4000/assets/images/life-square/39-2026.jpg');}
+.img_40{background-image:url('http://meatlover.org:4000/assets/images/life-square/40-2027.jpg');}
+
+*/
+
+.solid-link {
+  color: inherit;
+}
+.empty-star {
+  color: gray;
+}
+
 /* Ref: https://github.com/tofsjonas/sortable */
 .sortable {
   border-spacing: 0;
