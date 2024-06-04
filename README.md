@@ -1,2 +1,1 @@
-# meatlover.github.io
-Another journal site
+# another personal blog
