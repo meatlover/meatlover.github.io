@@ -320,7 +320,6 @@ compress_html:
     envs: development
 
 defaults:
-  # _docs
   - scope:
       path: ""
       type: home
@@ -331,6 +330,13 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      author_profile: true
+      sidebar:
+        nav: "nav1"
+  - scope:
+      path: ""
+      type: pages
     values:
       author_profile: true
       sidebar:

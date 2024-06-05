@@ -1,8 +1,9 @@
 ---
-layout: my
-title: Movies
-parent: Footprints
-nav_order: 1
+title: Movies I Watch
+categories: footstep
+layout: single
+tag: movie, footstep
+permalink: /movies/
 ---
 <script src="/assets/js/sortable.js"></script>
 <link rel="stylesheet" href="{{ "/assets/css/sortable.css" | relative_url }}"/>

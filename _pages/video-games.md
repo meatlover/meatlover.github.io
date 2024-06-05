@@ -1,8 +1,9 @@
 ---
-layout: my
-title: Video Games
-parent: Footprints
-nav_order: 30
+title: Video Games I Play
+categories: footstep
+layout: single
+tag: game, footstep
+permalink: /videogames/
 ---
 <script src="/assets/js/sortable.js"></script>
 <link rel="stylesheet" href="{{ "/assets/css/sortable.css" | relative_url }}"/>

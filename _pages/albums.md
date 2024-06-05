@@ -1,8 +1,9 @@
 ---
-layout: my
-title: Albums
-parent: Footprints
-nav_order: 1
+title: Albums I Listen
+categories: footstep
+layout: single
+tag: music, album, footstep
+permalink: /albums/
 ---
 <script src="/assets/js/sortable.js"></script>
 <link rel="stylesheet" href="{{ "/assets/css/sortable.css" | relative_url }}"/>

@@ -7,9 +7,15 @@ main:
     url: /tags/
 
 nav1:
-  - title: Music
+  - title: Footsteps
     children:
-      - title: "Albums"
-        url: /docs/albums.md
-      - title: "Playlists"
-        url: /docs/playlists.md
+      - title: "Music - Album"
+        url: /albums/
+      - title: "Music - Playlist"
+        url: /playlists/
+      - title: "Book"
+        url: /books/
+      - title: "Movie"
+        url: /movies/
+      - title: "Video Games"
+        url: /videogames/

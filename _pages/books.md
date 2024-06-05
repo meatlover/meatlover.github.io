@@ -1,8 +1,9 @@
 ---
-layout: my
-title: Books
-parent: Footprints
-nav_order: 1
+title: Books I Read
+categories: footstep
+layout: single
+tag: book, footstep
+permalink: /books/
 ---
 <script src="/assets/js/sortable.js"></script>
 <link rel="stylesheet" href="{{ "/assets/css/sortable.css" | relative_url }}"/>
