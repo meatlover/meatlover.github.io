@@ -235,3 +235,22 @@ search: false
        url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-900.ttf') format('truetype'), /* Safari, Android, iOS */
        url('/assets/fonts/noto-sans-sc-v20-latin_chinese-simplified-900.svg#NotoSansSC') format('svg'); /* Legacy iOS */
 }
+
+
+
+
+html {
+  font-size: 14px; // change to whatever
+
+  @include breakpoint($medium) {
+    font-size: 14px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px; // change to whatever
+  }
+}

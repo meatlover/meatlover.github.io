@@ -19,3 +19,5 @@ nav1:
         url: /movies/
       - title: "Video Games"
         url: /videogames/
+      - title: "Life Summary"
+        url: /squares/

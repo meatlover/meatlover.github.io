@@ -1,0 +1,11 @@
+---
+layout: single
+author_profile: true
+sidebar:
+  nav: "nav1"
+---
+# @tigerq
+<img src="/assets/images/my-applemusic.png" alt="my-apple-music-QR" style="width: 50%; height: auto;">
+
+# @meatlover0
+<img src="/assets/images/my-wechat.png" alt="my-wechat-QR" style="width: 50%; height: auto;">
