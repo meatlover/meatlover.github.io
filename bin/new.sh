@@ -29,10 +29,10 @@ fi
 
 if [ $# -ge 1 ] && [ $1 == 'album' ] || [ $1 == 'music' ] ; then
 slips_header="""---
-titie:      ""
+title:      ""
 categories: music
 rating:     
-tag:        music, album-year-
+tag:        [music, album-year-]
 screenshot: /assets/images/
 apple_ref:  
 layout:     posts
