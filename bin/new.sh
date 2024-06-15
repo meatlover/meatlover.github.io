@@ -27,13 +27,13 @@ layout: posts
 """
 fi
 
-if [ $# -ge 1 ] && [ $1 == 'album' ] ; then
+if [ $# -ge 1 ] && [ $1 == 'album' ] || [ $1 == 'music' ] ; then
 slips_header="""---
 titie:      ""
 categories: music
 rating:     
 tag:        music, album-year-
-screenshot: 
+screenshot: /assets/images/
 apple_ref:  
 layout:     posts
 ---
