@@ -1,9 +1,6 @@
+/* Ref: https://github.com/tofsjonas/sortable */
 .sortable {
   border-spacing: 0;
-}
-
-.sortable tbody tr:nth-child(odd) {
-  background: hsl(220,16%,15%);
 }
 
 .sortable td,
@@ -19,7 +16,7 @@
 }
 
 .sortable th {
-  background: hsl(220,16%,27%);
+  font-size: 1.2em;
   color: #fff;
   cursor: pointer;
   font-weight: normal;
@@ -29,8 +26,12 @@
   white-space: nowrap;
 }
 
+.sortable td {
+  font-size: 1.2em;
+}
+
 .sortable th:hover {
-  background: hsl(220,16%,35%);
+  background: hsl(252,6%,30%);
 }
 
 .sortable th:hover::after {
@@ -47,10 +48,11 @@
 
 .sortable th.dir-d::after {
   color: inherit;
-  content: ' \025BE';
+  content: ' \025B4';
 }
 
 .sortable th.dir-u::after {
   color: inherit;
-  content: ' \025B4';
+  content: ' \025BE';
 }
+

@@ -7,17 +7,17 @@ main:
     url: /tags/
 
 nav1:
-  - title: Footsteps
+  - title: " "
     children:
       - title: "Music - Album"
         url: /albums/
-      - title: "Music - Playlist"
-        url: /playlists/
-      - title: "Book"
-        url: /books/
-      - title: "Movie"
-        url: /movies/
-      - title: "Video Games"
-        url: /videogames/
-      - title: "Life Summary"
+#      - title: "Music - Playlist"
+#        url: /tags/#playlist
+#      - title: "Book"
+#        url: /tags/#book
+#      - title: "Movie"
+#        url: /tags/#movie
+#      - title: "Video Games"
+#        url: /tags/#videogame
+      - title: "Life Squares"
         url: /squares/

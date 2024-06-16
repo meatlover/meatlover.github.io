@@ -1,10 +1,40 @@
 ---
 title: Albums I Listen
-categories: footstep
+categories: catalog
 layout: single
-tag: music, album, footstep
 permalink: /albums/
 ---
+
+## 评分标准
+
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i> - 可勉强理解作者意图，但不认可
+
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i> - 可以入耳
+
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="far fa-star-half-stroke"></i>
+<i class="far fa-star"></i> - 有闪光之处，闲时可偶尔拿来一听
+
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i> 
+<i class="far fa-star"></i> - 不可多得的作品，常年身居背景playlist
+
+
+
+## 专辑列表
+
 <script src="/assets/js/sortable.js"></script>
 <link rel="stylesheet" href="{{ "/assets/css/sortable.css" | relative_url }}"/>
 
@@ -17,26 +47,35 @@ permalink: /albums/
     <th>Year</th>
     <th>Artist</th>
     <th>Rating</th>
-    <th>Comment</th>
-    <th>Listen Year</th>
   </tr>
 </thead>
 <tbody>
-{% for album in site.data.albums %}
+{% for post in site.posts %}
+  {% if post.tags contains 'album' %}
+
+  {% assign rating = post.rating %}
+  {% assign max_rating = 5 %}
+  {% assign full_stars = rating | floor %}
+  {% assign half_star = rating | modulo: 1 %}
+  {% assign empty_stars = max_rating | minus: rating | floor %}
+  
   <tr>
-    <td><a href="{{ album.link }}" class="solid-link" >{{ album.title }})</a></td>
-    <td>{{ album.year }}</td>
-    <td>{{ album.artist }}</td>
+    <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+    <td>{{ post.year }}</td>
+    <td>{{ post.artist[0] }}</td>
     <td>
-      {% for i in (1..5) %}
-        {% if i <= album.rating %}
-          &#9733;
-        {% endif %}
+      {% for i in (1..full_stars) %}
+        <i class="fa-solid fa-star"></i>
+      {% endfor %}
+      {% if half_star >= 0.5 %}
+        <i class="far fa-star-half-stroke"></i>
+      {% endif %}
+      {% for i in (1..empty_stars) %}
+        <i class="far fa-star"></i>
       {% endfor %}
     </td>
-    <td>{{ album.comment }}</td>
-    <td>{{ album.listen_year }}</td>
   </tr>
+  {% endif %}
 {% endfor %}
 </tbody>
 </table>

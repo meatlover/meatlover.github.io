@@ -11,7 +11,7 @@ slips_header="""---
 title:
 categories: 
 tag:
-layout: posts
+layout: single
 ---
 
 """
@@ -21,7 +21,7 @@ slips_header="""---
 title:
 categories: movie
 tag:
-layout: posts
+layout: single
 ---
 
 """
@@ -30,12 +30,14 @@ fi
 if [ $# -ge 1 ] && [ $1 == 'album' ] || [ $1 == 'music' ] ; then
 slips_header="""---
 title:      ""
-categories: music
+artist:     
 rating:     
-tag:        [music, album-year-]
+year:       
+tag:        [album]
 screenshot: /assets/images/
 apple_ref:  
-layout:     posts
+categories: music
+layout:     single
 ---
 {% include music_header.md %}
 
