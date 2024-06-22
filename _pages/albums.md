@@ -8,21 +8,21 @@ permalink: /albums/
 ## 评分标准
 
 <i class="fa-solid fa-star"></i>
-<i class="fa-solid fa-star"></i>
 <i class="far fa-star"></i>
 <i class="far fa-star"></i>
-<i class="far fa-star"></i> - 可勉强理解作者意图，但不认可
+<i class="far fa-star"></i>
+<i class="far fa-star"></i> - 不认可
 
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
-<i class="fa-solid fa-star"></i>
+<i class="far fa-star"></i>
 <i class="far fa-star"></i>
 <i class="far fa-star"></i> - 可以入耳
 
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
-<i class="far fa-star-half-stroke"></i>
+<i class="far fa-star"></i>
 <i class="far fa-star"></i> - 有闪光之处，闲时可偶尔拿来一听
 
 <i class="fa-solid fa-star"></i>
@@ -31,6 +31,11 @@ permalink: /albums/
 <i class="fa-solid fa-star"></i> 
 <i class="far fa-star"></i> - 不可多得的作品，常年身居背景playlist
 
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i> 
+<i class="fa-solid fa-star"></i> - 歌曲已然成为我的一部分
 
 
 ## 专辑列表
