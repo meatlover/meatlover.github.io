@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+date="$(date +%Y-%m-%d)-$(date +%s)"
+
 # requires: Environment variable: MEATLOVER_IO_PATH
 # slips folder needs to exist
 if [ ! -d "$MEATLOVER_IO_PATH/_posts" ]; then
@@ -8,9 +10,9 @@ if [ ! -d "$MEATLOVER_IO_PATH/_posts" ]; then
 fi
 
 slips_header="""---
-title:
+title:      
 categories: 
-tag:
+tag:       
 layout: single
 ---
 
@@ -30,23 +32,26 @@ fi
 if [ $# -ge 1 ] && [ $1 == 'album' ] || [ $1 == 'music' ] ; then
 slips_header="""---
 title:      ""
-artist:     
+artist:     []
 rating:     
 year:       
 tag:        [album]
-screenshot: /assets/images/
+screenshot: /assets/images/$date.md
 apple_ref:  
 categories: music
 layout:     single
 ---
 {% include music_header.md %}
 
+\`\`\`
+闪光制作人员
+
+\`\`\`
 
 """
 fi
 
 temp_file=/tmp/footstep-temp.txt
-date="$(date +%Y-%m-%d)-$(date +%s)"
 year="$(date +%Y)"
 
 mkdir -p $MEATLOVER_IO_PATH/_posts/$year
