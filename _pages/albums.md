@@ -68,7 +68,7 @@ permalink: /albums/
     <td><a href="{{ post.url }}">{{ post.title }}</a></td>
     <td>{{ post.year }}</td>
     <td>{{ post.artist[0] }}</td>
-    <td>
+    <td data-sort="{{ post.rating }}">
       {% for i in (1..full_stars) %}
         <i class="fa-solid fa-star"></i>
       {% endfor %}
