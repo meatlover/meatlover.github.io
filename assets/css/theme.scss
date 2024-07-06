@@ -12,10 +12,10 @@ $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
 $footer-background-color: mix(#000, $background-color, 30%) !default;
 $link-color: mix(#000, $text-color, 25%) !default;
-$link-color-hover: mix(#000, $text-color, 55%) !default;
+$link-color-hover: #397179 !default;
 $link-color-visited: mix(#000, $text-color, 25%) !default;
 $masthead-link-color: mix(#000, $text-color, 25%) !default;
-$navicon-link-color-hover: mix(#000, $text-color, 25%) !default;
+$navicon-link-color-hover: #ffffff !default;
 
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
