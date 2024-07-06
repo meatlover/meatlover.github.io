@@ -17,7 +17,6 @@ layout: single
 ---
 
 """
-
 if [ $# -ge 1 ] && [ $1 == 'movie' ] ; then
 slips_header="""---
 title:
@@ -29,7 +28,7 @@ layout: single
 """
 fi
 
-if [ $# -ge 1 ] && [ $1 == 'album' ] || [ $1 == 'music' ] ; then
+if [ $# -ge 1 ] && [ $1 == 'music' ] ; then
 slips_header="""---
 title:      ""
 artist:     []
