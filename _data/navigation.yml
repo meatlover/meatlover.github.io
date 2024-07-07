@@ -9,8 +9,8 @@ main:
 nav1:
   - title: " "
     children:
-#      - title: "Music - Album"
-#        url: /albums/
+      - title: "Music Artists"
+        url: /music-artists/
 #      - title: "Music - Playlist"
 #        url: /tags/#playlist
 #      - title: "Book"

@@ -48,11 +48,11 @@
 
 .sortable th.dir-d::after {
   color: inherit;
-  content: ' \025B4';
+  content: ' \025BE';
 }
 
 .sortable th.dir-u::after {
   color: inherit;
-  content: ' \025BE';
+  content: ' \025B4';
 }
 
