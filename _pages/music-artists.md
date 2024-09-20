@@ -40,6 +40,7 @@ permalink: /music-artists/
         <tr><td>李宗盛</td><td>2</td></tr>
         <tr><td>李聪</td><td>5</td></tr>
         <tr><td>何启弘</td><td>2</td></tr>
+        <tr><td>黄伟文</td><td>2</td></tr>
       </tbody>
     </table>
   </div>

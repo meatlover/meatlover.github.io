@@ -60,6 +60,12 @@ end
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
+:-- means the column is left aligned.
+
+--: means the column is right aligned.
+
+:-: means the column is center aligned.
+
 ### There's a horizontal rule below this.
 
 * * *
