@@ -36,11 +36,12 @@ permalink: /music-artists/
         <tr><td>黑金雨</td><td>1</td></tr>
         <tr><td>万一</td><td>2</td></tr>
         <tr><td>林夕</td><td>1</td></tr>
-        <tr><td>李焯雄</td><td>2</td></tr>
+        <tr><td>李焯雄</td><td>3</td></tr>
         <tr><td>李宗盛</td><td>2</td></tr>
         <tr><td>李聪</td><td>5</td></tr>
         <tr><td>何启弘</td><td>2</td></tr>
         <tr><td>黄伟文</td><td>2</td></tr>
+        <tr><td>郭顶</td><td>5</td></tr>
       </tbody>
     </table>
   </div>
@@ -61,6 +62,7 @@ permalink: /music-artists/
         <tr><td>裘德</td><td>6</td></tr>
         <tr><td>阿沁</td><td>1</td></tr>
         <tr><td>宇督宫优子</td><td>1</td></tr>
+        <tr><td>郭顶</td><td>5</td></tr>
       </tbody>
     </table>
   </div>
@@ -90,6 +92,8 @@ permalink: /music-artists/
         <tr><td>鲜于贞娥</td><td>1</td></tr>
         <tr><td>彭飞</td><td>5</td></tr>
         <tr><td>Tonyi NG</td><td>5</td></tr>
+        <tr><td>张亚东</td><td>5</td></tr>
+        <tr><td>郭顶</td><td>5</td></tr>
       </tbody>
     </table>
   </div>
