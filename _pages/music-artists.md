@@ -21,6 +21,7 @@ permalink: /music-artists/
         <tr><td>陈台证</td><td>1</td></tr>
         <tr><td>丁世光</td><td>1</td></tr>
         <tr><td>孙盛希</td><td>5</td></tr>
+        <tr><td>许哲珮</td><td>5</td></tr>
       </tbody>
     </table>
   </div>
@@ -40,6 +41,7 @@ permalink: /music-artists/
         <tr><td>李宗盛</td><td>2</td></tr>
         <tr><td>李聪</td><td>5</td></tr>
         <tr><td>何启弘</td><td>2</td></tr>
+        <tr><td>Rod Temperton</td><td>1</td></tr>
       </tbody>
     </table>
   </div>
@@ -89,6 +91,7 @@ permalink: /music-artists/
         <tr><td>鲜于贞娥</td><td>1</td></tr>
         <tr><td>彭飞</td><td>5</td></tr>
         <tr><td>Tonyi NG</td><td>5</td></tr>
+        <tr><td>Quincy Jones</td><td>5</td></tr>
       </tbody>
     </table>
   </div>
