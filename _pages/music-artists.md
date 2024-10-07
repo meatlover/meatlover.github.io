@@ -62,6 +62,7 @@ permalink: /music-artists/
         <tr><td>裘德</td><td>6</td></tr>
         <tr><td>阿沁</td><td>1</td></tr>
         <tr><td>宇督宫优子</td><td>1</td></tr>
+        <tr><td>魏如萱</td><td>2</td></tr>
       </tbody>
     </table>
   </div>
@@ -92,6 +93,7 @@ permalink: /music-artists/
         <tr><td>彭飞</td><td>5</td></tr>
         <tr><td>Tonyi NG</td><td>5</td></tr>
         <tr><td>Quincy Jones</td><td>5</td></tr>
+        <tr><td>陈建骐</td><td>5</td></tr>
       </tbody>
     </table>
   </div>
