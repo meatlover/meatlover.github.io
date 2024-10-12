@@ -1,0 +1,80 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+// @import "theme";
+
+@charset "utf-8";
+
+$serif      : "Noto Sans SC", Georgia, Times, serif;
+$sans-serif : "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+$doc-font-size: 14;
+
+
+$type-size-1 : 1em;  // ~39.056px
+$type-size-2 : 1em;  // ~31.248px
+$type-size-3 : 1em;  // ~25.008px
+$type-size-4 : 0.75em;   // ~20px
+$type-size-5 : 0.75em;      // ~16px
+$type-size-6 : 0.75em;   // ~12px
+$type-size-7 : 0.6875em; // ~11px
+$type-size-8 : 0.625em;  // ~10px
+
+/* dirt syntax highlighting (base16) */
+$base00: #231e18;
+$base01: #302b25;
+$base02: #48413a;
+$base03: #9d8b70;
+$base04: #b4a490;
+$base05: #cabcb1;
+$base06: #d7c8bc;
+$base07: #e4d4c8;
+$base08: #d35c5c;
+$base09: #ca7f32;
+$base0a: #e0ac16;
+$base0b: #b7ba53;
+$base0c: #6eb958;
+$base0d: #88a4d3;
+$base0e: #bb90e2;
+$base0f: #b49368;
+
+
+@import "minimal-mistakes"; // main partials
+
+@import "life";
+@import "font";
+@import "sortable";
+@import "column";
+
+.nav-list-item {
+  text-align: right;
+}
+.site-title {
+  flex-direction: row-reverse;
+}
+.site-footer {
+  text-align: right;
+
+}
+
+.solid-link {
+  color: inherit;
+}
+
+html {
+    font-size: 14px; // change to whatever
+  
+    @include breakpoint($medium) {
+      font-size: 14px; // change to whatever
+    }
+  
+    @include breakpoint($large) {
+      font-size: 14px; // change to whatever
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 18px; // change to whatever
+    }
+}
