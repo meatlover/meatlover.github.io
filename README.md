@@ -1,4 +1,4 @@
-# Maetlover Studio
+# Meatlover Studio
 
 Static GitHub Pages site for a general software development studio.
 
