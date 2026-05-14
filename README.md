@@ -11,4 +11,4 @@ The public copy intentionally describes broad fields of work only:
 - Automation tools
 - Product prototypes
 
-It does not include private repository names, customer details, or detailed project information.
+It does not include internal names, customer details, or detailed project information.
