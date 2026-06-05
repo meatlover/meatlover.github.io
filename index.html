@@ -12,54 +12,72 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Meatlover Studio home">
-        <span class="brand-mark" aria-hidden="true">M</span>
-        <span>Meatlover Studio</span>
-      </a>
+      <a class="brand" href="#top" aria-label="Meatlover Studio home">Meatlover Studio</a>
       <nav class="nav" aria-label="Primary navigation">
+        <a href="#products">Products</a>
         <a href="#work">Work</a>
-        <a href="#approach">Approach</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Independent software development studio</p>
-          <h1 id="hero-title">Practical apps, device tools, and connected prototypes.</h1>
-          <p class="hero-text">
-            We develop general-purpose software for desktop, mobile, embedded,
-            and web-connected workflows. Our focus is useful, maintainable
-            products for everyday teams and makers.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#work">View fields</a>
-            <a class="button secondary" href="mailto:hello@meatlover.org">Contact</a>
-          </div>
-        </div>
 
-        <div class="device-scene" aria-label="Illustration of app and hardware development areas">
-          <div class="monitor-window">
-            <span></span>
-            <span></span>
-            <span></span>
-            <div class="code-line wide"></div>
-            <div class="code-line medium"></div>
-            <div class="code-line short"></div>
-            <div class="code-panel"></div>
-          </div>
-          <div class="phone-frame">
-            <div class="phone-speaker"></div>
-            <div class="phone-card"></div>
-            <div class="phone-row"></div>
-            <div class="phone-row short"></div>
-          </div>
-          <div class="chip-board">
-            <div class="chip"></div>
-            <div class="pin-row top"></div>
-            <div class="pin-row bottom"></div>
-          </div>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Independent software studio</p>
+        <h1 id="hero-title">Handcrafted software<br>for curious builders.</h1>
+        <p class="hero-text">
+          We build practical apps, device tools, and connected prototypes for Mac,
+          iOS, embedded systems, and web-connected workflows.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#products">See our products</a>
+          <a class="button secondary" href="mailto:hello@meatlover.org">Contact</a>
+        </div>
+      </section>
+
+      <section id="products" class="section" aria-labelledby="products-title">
+        <div class="section-heading">
+          <p class="eyebrow">What we ship</p>
+          <h2 id="products-title">Products</h2>
+        </div>
+        <div class="product-grid">
+
+          <article class="product-card">
+            <div class="product-card-header">
+              <h3>meatmux</h3>
+              <span class="product-tag">macOS</span>
+            </div>
+            <p>An AI-aware terminal multiplexer for macOS. meatmux surfaces context from running panes to a built-in assistant, letting you query, summarise, and act on terminal output without leaving the workflow.</p>
+            <p class="product-status">In development</p>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-header">
+              <h3>habitlover</h3>
+              <span class="product-tag">iOS · Web · CLI</span>
+            </div>
+            <p>A habit tracking system with a Go server backend, web interface, and command-line client. Stores streaks and daily check-ins locally, syncs across devices, and keeps history in a queryable format.</p>
+            <p class="product-status">In development</p>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-header">
+              <h3>pihid</h3>
+              <span class="product-tag">Embedded · Raspberry Pi</span>
+            </div>
+            <p>A USB HID keyboard and mouse device built on Raspberry Pi Zero W. Exposes a REST API that lets a Mac send keystrokes and pointer events to any connected machine — designed for automated UI testing without requiring software on the target.</p>
+            <p class="product-status">Prototype</p>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-header">
+              <h3>phone-clicker-esp32</h3>
+              <span class="product-tag">Embedded · ESP32</span>
+            </div>
+            <p>An ESP32-based hardware automation tool for mobile devices. Drives physical tap and swipe actions on a phone screen via servo-controlled mechanisms, controlled over Wi-Fi — useful for repetitive test scenarios that can't be automated in software.</p>
+            <p class="product-status">Prototype</p>
+          </article>
+
         </div>
       </section>
 
@@ -74,15 +92,15 @@
             <p>Native desktop utilities, workflow tools, menu bar apps, and automation-friendly software for macOS.</p>
           </article>
           <article class="field-card">
-            <h3>iPhone & iPad Apps</h3>
+            <h3>iPhone &amp; iPad Apps</h3>
             <p>Mobile applications, companion apps, prototypes, and device-focused interfaces for iOS and iPadOS.</p>
           </article>
           <article class="field-card">
-            <h3>ESP32 & Embedded Systems</h3>
+            <h3>ESP32 &amp; Embedded Systems</h3>
             <p>Firmware prototypes, sensor integrations, small hardware controllers, and connected-device experiments.</p>
           </article>
           <article class="field-card">
-            <h3>Web & Cloud Services</h3>
+            <h3>Web &amp; Cloud Services</h3>
             <p>Lightweight dashboards, APIs, data sync services, admin tools, and integrations that support app workflows.</p>
           </article>
           <article class="field-card">
@@ -117,12 +135,11 @@
       </section>
 
       <section id="contact" class="contact-band" aria-labelledby="contact-title">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">For general development inquiries</h2>
-        </div>
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">For general development inquiries</h2>
         <a class="button primary" href="mailto:hello@meatlover.org">hello@meatlover.org</a>
       </section>
+
     </main>
 
     <footer class="site-footer">
