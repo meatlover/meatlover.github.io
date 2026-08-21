@@ -436,7 +436,7 @@
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#products">See our products</a>
-            <a class="button secondary" href="mailto:hello@meatlover.org">Contact</a>
+            <a class="button secondary" href="mailto:oss@meatlover.io">Contact</a>
           </div>
         </section>
 
@@ -542,7 +542,7 @@
         <section id="contact" class="contact-band" aria-labelledby="contact-title">
           <p class="eyebrow">Contact</p>
           <h2 id="contact-title">For general development inquiries</h2>
-          <a class="button primary" href="mailto:hello@meatlover.org">hello@meatlover.org</a>
+          <a class="button primary" href="mailto:oss@meatlover.io">oss@meatlover.io</a>
         </section>
 
       </main>
